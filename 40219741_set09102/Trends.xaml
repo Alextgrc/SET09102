@@ -1,0 +1,30 @@
+﻿<Window x:Class="_40219741_set09102.Trends"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_40219741_set09102"
+        mc:Ignorable="d"
+        Title="Trends" Height="354.727" Width="628.365">
+    <Grid>
+        <TextBox x:Name="txtHashtag" HorizontalAlignment="Left" Height="325" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" BorderBrush="#FFBCCBF9" VerticalContentAlignment="Center" FontSize="20">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFA7A3E4" Offset="0"/>
+                    <GradientStop Color="#FF3B4FA5" Offset="0.542"/>
+                    <GradientStop Color="#FF2458A9" Offset="0.962"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="txtMention" HorizontalAlignment="Left" Height="325" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" BorderBrush="#FFBCCBF9" VerticalContentAlignment="Center" FontSize="20" Margin="315,0,-8,0">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF535C98" Offset="0"/>
+                    <GradientStop Color="#FF3551B8" Offset="0.352"/>
+                    <GradientStop Color="#FF9B8EFC" Offset="0.962"/>
+                    <GradientStop Color="#FF6D8DE1" Offset="0.668"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+    </Grid>
+</Window>
